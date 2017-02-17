@@ -1,0 +1,302 @@
+woj	pow	gmi	rgmi	nazwa	typ
+12				MAŁOPOLSKIE	województwo
+12	01			bocheński	powiat
+12	01	01	1	Bochnia	gmina miejska
+12	01	02	2	Bochnia	gmina wiejska
+12	01	03	2	Drwinia	gmina wiejska
+12	01	04	2	Lipnica Murowana	gmina wiejska
+12	01	05	2	Łapanów	gmina wiejska
+12	01	06	3	Nowy Wiśnicz	gmina miejsko-wiejska
+12	01	06	4	Nowy Wiśnicz	miasto
+12	01	06	5	Nowy Wiśnicz	obszar wiejski
+12	01	07	2	Rzezawa	gmina wiejska
+12	01	08	2	Trzciana	gmina wiejska
+12	01	09	2	Żegocina	gmina wiejska
+12	02			brzeski	powiat
+12	02	01	2	Borzęcin	gmina wiejska
+12	02	02	3	Brzesko	gmina miejsko-wiejska
+12	02	02	4	Brzesko	miasto
+12	02	02	5	Brzesko	obszar wiejski
+12	02	03	3	Czchów	gmina miejsko-wiejska
+12	02	03	4	Czchów	miasto
+12	02	03	5	Czchów	obszar wiejski
+12	02	04	2	Dębno	gmina wiejska
+12	02	05	2	Gnojnik	gmina wiejska
+12	02	06	2	Iwkowa	gmina wiejska
+12	02	07	2	Szczurowa	gmina wiejska
+12	03			chrzanowski	powiat
+12	03	01	3	Alwernia	gmina miejsko-wiejska
+12	03	01	4	Alwernia	miasto
+12	03	01	5	Alwernia	obszar wiejski
+12	03	02	2	Babice	gmina wiejska
+12	03	03	3	Chrzanów	gmina miejsko-wiejska
+12	03	03	4	Chrzanów	miasto
+12	03	03	5	Chrzanów	obszar wiejski
+12	03	04	3	Libiąż	gmina miejsko-wiejska
+12	03	04	4	Libiąż	miasto
+12	03	04	5	Libiąż	obszar wiejski
+12	03	05	3	Trzebinia	gmina miejsko-wiejska
+12	03	05	4	Trzebinia	miasto
+12	03	05	5	Trzebinia	obszar wiejski
+12	04			dąbrowski	powiat
+12	04	01	2	Bolesław	gmina wiejska
+12	04	02	3	Dąbrowa Tarnowska	gmina miejsko-wiejska
+12	04	02	4	Dąbrowa Tarnowska	miasto
+12	04	02	5	Dąbrowa Tarnowska	obszar wiejski
+12	04	03	2	Gręboszów	gmina wiejska
+12	04	04	2	Mędrzechów	gmina wiejska
+12	04	05	2	Olesno	gmina wiejska
+12	04	06	2	Radgoszcz	gmina wiejska
+12	04	07	3	Szczucin	gmina miejsko-wiejska
+12	04	07	4	Szczucin	miasto
+12	04	07	5	Szczucin	obszar wiejski
+12	05			gorlicki	powiat
+12	05	01	1	Gorlice	gmina miejska
+12	05	02	3	Biecz	gmina miejsko-wiejska
+12	05	02	4	Biecz	miasto
+12	05	02	5	Biecz	obszar wiejski
+12	05	03	3	Bobowa	gmina miejsko-wiejska
+12	05	03	4	Bobowa	miasto
+12	05	03	5	Bobowa	obszar wiejski
+12	05	04	2	Gorlice	gmina wiejska
+12	05	05	2	Lipinki	gmina wiejska
+12	05	06	2	Łużna	gmina wiejska
+12	05	07	2	Moszczenica	gmina wiejska
+12	05	08	2	Ropa	gmina wiejska
+12	05	09	2	Sękowa	gmina wiejska
+12	05	10	2	Uście Gorlickie	gmina wiejska
+12	06			krakowski	powiat
+12	06	01	2	Czernichów	gmina wiejska
+12	06	02	2	Igołomia-Wawrzeńczyce	gmina wiejska
+12	06	03	2	Iwanowice	gmina wiejska
+12	06	04	2	Jerzmanowice-Przeginia	gmina wiejska
+12	06	05	2	Kocmyrzów-Luborzyca	gmina wiejska
+12	06	06	3	Krzeszowice	gmina miejsko-wiejska
+12	06	06	4	Krzeszowice	miasto
+12	06	06	5	Krzeszowice	obszar wiejski
+12	06	07	2	Liszki	gmina wiejska
+12	06	08	2	Michałowice	gmina wiejska
+12	06	09	2	Mogilany	gmina wiejska
+12	06	10	3	Skała	gmina miejsko-wiejska
+12	06	10	4	Skała	miasto
+12	06	10	5	Skała	obszar wiejski
+12	06	11	3	Skawina	gmina miejsko-wiejska
+12	06	11	4	Skawina	miasto
+12	06	11	5	Skawina	obszar wiejski
+12	06	12	3	Słomniki	gmina miejsko-wiejska
+12	06	12	4	Słomniki	miasto
+12	06	12	5	Słomniki	obszar wiejski
+12	06	13	2	Sułoszowa	gmina wiejska
+12	06	14	3	Świątniki Górne	gmina miejsko-wiejska
+12	06	14	4	Świątniki Górne	miasto
+12	06	14	5	Świątniki Górne	obszar wiejski
+12	06	15	2	Wielka Wieś	gmina wiejska
+12	06	16	2	Zabierzów	gmina wiejska
+12	06	17	2	Zielonki	gmina wiejska
+12	07			limanowski	powiat
+12	07	01	1	Limanowa	gmina miejska
+12	07	02	1	Mszana Dolna	gmina miejska
+12	07	03	2	Dobra	gmina wiejska
+12	07	04	2	Jodłownik	gmina wiejska
+12	07	05	2	Kamienica	gmina wiejska
+12	07	06	2	Laskowa	gmina wiejska
+12	07	07	2	Limanowa	gmina wiejska
+12	07	08	2	Łukowica	gmina wiejska
+12	07	09	2	Mszana Dolna	gmina wiejska
+12	07	10	2	Niedźwiedź	gmina wiejska
+12	07	11	2	Słopnice	gmina wiejska
+12	07	12	2	Tymbark	gmina wiejska
+12	08			miechowski	powiat
+12	08	01	2	Charsznica	gmina wiejska
+12	08	02	2	Gołcza	gmina wiejska
+12	08	03	2	Kozłów	gmina wiejska
+12	08	04	2	Książ Wielki	gmina wiejska
+12	08	05	3	Miechów	gmina miejsko-wiejska
+12	08	05	4	Miechów	miasto
+12	08	05	5	Miechów	obszar wiejski
+12	08	06	2	Racławice	gmina wiejska
+12	08	07	2	Słaboszów	gmina wiejska
+12	09			myślenicki	powiat
+12	09	01	3	Dobczyce	gmina miejsko-wiejska
+12	09	01	4	Dobczyce	miasto
+12	09	01	5	Dobczyce	obszar wiejski
+12	09	02	2	Lubień	gmina wiejska
+12	09	03	3	Myślenice	gmina miejsko-wiejska
+12	09	03	4	Myślenice	miasto
+12	09	03	5	Myślenice	obszar wiejski
+12	09	04	2	Pcim	gmina wiejska
+12	09	05	2	Raciechowice	gmina wiejska
+12	09	06	2	Siepraw	gmina wiejska
+12	09	07	3	Sułkowice	gmina miejsko-wiejska
+12	09	07	4	Sułkowice	miasto
+12	09	07	5	Sułkowice	obszar wiejski
+12	09	08	2	Tokarnia	gmina wiejska
+12	09	09	2	Wiśniowa	gmina wiejska
+12	10			nowosądecki	powiat
+12	10	01	1	Grybów	gmina miejska
+12	10	02	2	Chełmiec	gmina wiejska
+12	10	03	2	Gródek nad Dunajcem	gmina wiejska
+12	10	04	2	Grybów	gmina wiejska
+12	10	05	2	Kamionka Wielka	gmina wiejska
+12	10	06	2	Korzenna	gmina wiejska
+12	10	07	3	Krynica-Zdrój	gmina miejsko-wiejska
+12	10	07	4	Krynica-Zdrój	miasto
+12	10	07	5	Krynica-Zdrój	obszar wiejski
+12	10	08	2	Łabowa	gmina wiejska
+12	10	09	2	Łącko	gmina wiejska
+12	10	10	2	Łososina Dolna	gmina wiejska
+12	10	11	3	Muszyna	gmina miejsko-wiejska
+12	10	11	4	Muszyna	miasto
+12	10	11	5	Muszyna	obszar wiejski
+12	10	12	2	Nawojowa	gmina wiejska
+12	10	13	3	Piwniczna-Zdrój	gmina miejsko-wiejska
+12	10	13	4	Piwniczna-Zdrój	miasto
+12	10	13	5	Piwniczna-Zdrój	obszar wiejski
+12	10	14	2	Podegrodzie	gmina wiejska
+12	10	15	2	Rytro	gmina wiejska
+12	10	16	3	Stary Sącz	gmina miejsko-wiejska
+12	10	16	4	Stary Sącz	miasto
+12	10	16	5	Stary Sącz	obszar wiejski
+12	11			nowotarski	powiat
+12	11	01	1	Nowy Targ	gmina miejska
+12	11	02	3	Szczawnica	gmina miejsko-wiejska
+12	11	02	4	Szczawnica	miasto
+12	11	02	5	Szczawnica	obszar wiejski
+12	11	03	2	Czarny Dunajec	gmina wiejska
+12	11	04	2	Czorsztyn	gmina wiejska
+12	11	05	2	Jabłonka	gmina wiejska
+12	11	06	2	Krościenko nad Dunajcem	gmina wiejska
+12	11	07	2	Lipnica Wielka	gmina wiejska
+12	11	08	2	Łapsze Niżne	gmina wiejska
+12	11	09	2	Nowy Targ	gmina wiejska
+12	11	10	2	Ochotnica Dolna	gmina wiejska
+12	11	11	2	Raba Wyżna	gmina wiejska
+12	11	12	3	Rabka-Zdrój	gmina miejsko-wiejska
+12	11	12	4	Rabka-Zdrój	miasto
+12	11	12	5	Rabka-Zdrój	obszar wiejski
+12	11	13	2	Spytkowice	gmina wiejska
+12	11	14	2	Szaflary	gmina wiejska
+12	12			olkuski	powiat
+12	12	01	1	Bukowno	gmina miejska
+12	12	03	2	Bolesław	gmina wiejska
+12	12	04	2	Klucze	gmina wiejska
+12	12	05	3	Olkusz	gmina miejsko-wiejska
+12	12	05	4	Olkusz	miasto
+12	12	05	5	Olkusz	obszar wiejski
+12	12	06	2	Trzyciąż	gmina wiejska
+12	12	07	3	Wolbrom	gmina miejsko-wiejska
+12	12	07	4	Wolbrom	miasto
+12	12	07	5	Wolbrom	obszar wiejski
+12	13			oświęcimski	powiat
+12	13	01	1	Oświęcim	gmina miejska
+12	13	02	3	Brzeszcze	gmina miejsko-wiejska
+12	13	02	4	Brzeszcze	miasto
+12	13	02	5	Brzeszcze	obszar wiejski
+12	13	03	3	Chełmek	gmina miejsko-wiejska
+12	13	03	4	Chełmek	miasto
+12	13	03	5	Chełmek	obszar wiejski
+12	13	04	3	Kęty	gmina miejsko-wiejska
+12	13	04	4	Kęty	miasto
+12	13	04	5	Kęty	obszar wiejski
+12	13	05	2	Osiek	gmina wiejska
+12	13	06	2	Oświęcim	gmina wiejska
+12	13	07	2	Polanka Wielka	gmina wiejska
+12	13	08	2	Przeciszów	gmina wiejska
+12	13	09	3	Zator	gmina miejsko-wiejska
+12	13	09	4	Zator	miasto
+12	13	09	5	Zator	obszar wiejski
+12	14			proszowicki	powiat
+12	14	01	2	Koniusza	gmina wiejska
+12	14	02	2	Koszyce	gmina wiejska
+12	14	03	2	Nowe Brzesko	gmina wiejska
+12	14	04	2	Pałecznica	gmina wiejska
+12	14	05	3	Proszowice	gmina miejsko-wiejska
+12	14	05	4	Proszowice	miasto
+12	14	05	5	Proszowice	obszar wiejski
+12	14	06	2	Radziemice	gmina wiejska
+12	15			suski	powiat
+12	15	01	1	Jordanów	gmina miejska
+12	15	02	1	Sucha Beskidzka	gmina miejska
+12	15	03	2	Budzów	gmina wiejska
+12	15	04	2	Bystra-Sidzina	gmina wiejska
+12	15	05	2	Jordanów	gmina wiejska
+12	15	06	3	Maków Podhalański	gmina miejsko-wiejska
+12	15	06	4	Maków Podhalański	miasto
+12	15	06	5	Maków Podhalański	obszar wiejski
+12	15	07	2	Stryszawa	gmina wiejska
+12	15	08	2	Zawoja	gmina wiejska
+12	15	09	2	Zembrzyce	gmina wiejska
+12	16			tarnowski	powiat
+12	16	01	3	Ciężkowice	gmina miejsko-wiejska
+12	16	01	4	Ciężkowice	miasto
+12	16	01	5	Ciężkowice	obszar wiejski
+12	16	02	2	Gromnik	gmina wiejska
+12	16	03	2	Lisia Góra	gmina wiejska
+12	16	04	2	Pleśna	gmina wiejska
+12	16	05	3	Radłów	gmina miejsko-wiejska
+12	16	05	4	Radłów	miasto
+12	16	05	5	Radłów	obszar wiejski
+12	16	06	3	Ryglice	gmina miejsko-wiejska
+12	16	06	4	Ryglice	miasto
+12	16	06	5	Ryglice	obszar wiejski
+12	16	07	2	Rzepiennik Strzyżewski	gmina wiejska
+12	16	08	2	Skrzyszów	gmina wiejska
+12	16	09	2	Tarnów	gmina wiejska
+12	16	10	3	Tuchów	gmina miejsko-wiejska
+12	16	10	4	Tuchów	miasto
+12	16	10	5	Tuchów	obszar wiejski
+12	16	11	2	Wierzchosławice	gmina wiejska
+12	16	12	2	Wietrzychowice	gmina wiejska
+12	16	13	3	Wojnicz	gmina miejsko-wiejska
+12	16	13	4	Wojnicz	miasto
+12	16	13	5	Wojnicz	obszar wiejski
+12	16	14	3	Zakliczyn	gmina miejsko-wiejska
+12	16	14	4	Zakliczyn	miasto
+12	16	14	5	Zakliczyn	obszar wiejski
+12	16	15	3	Żabno	gmina miejsko-wiejska
+12	16	15	4	Żabno	miasto
+12	16	15	5	Żabno	obszar wiejski
+12	16	16	2	Szerzyny	gmina wiejska
+12	17			tatrzański	powiat
+12	17	01	1	Zakopane	gmina miejska
+12	17	02	2	Biały Dunajec	gmina wiejska
+12	17	03	2	Bukowina Tatrzańska	gmina wiejska
+12	17	04	2	Kościelisko	gmina wiejska
+12	17	05	2	Poronin	gmina wiejska
+12	18			wadowicki	powiat
+12	18	01	3	Andrychów	gmina miejsko-wiejska
+12	18	01	4	Andrychów	miasto
+12	18	01	5	Andrychów	obszar wiejski
+12	18	02	2	Brzeźnica	gmina wiejska
+12	18	03	3	Kalwaria Zebrzydowska	gmina miejsko-wiejska
+12	18	03	4	Kalwaria Zebrzydowska	miasto
+12	18	03	5	Kalwaria Zebrzydowska	obszar wiejski
+12	18	04	2	Lanckorona	gmina wiejska
+12	18	05	2	Mucharz	gmina wiejska
+12	18	06	2	Spytkowice	gmina wiejska
+12	18	07	2	Stryszów	gmina wiejska
+12	18	08	2	Tomice	gmina wiejska
+12	18	09	3	Wadowice	gmina miejsko-wiejska
+12	18	09	4	Wadowice	miasto
+12	18	09	5	Wadowice	obszar wiejski
+12	18	10	2	Wieprz	gmina wiejska
+12	19			wielicki	powiat
+12	19	01	2	Biskupice	gmina wiejska
+12	19	02	2	Gdów	gmina wiejska
+12	19	03	2	Kłaj	gmina wiejska
+12	19	04	3	Niepołomice	gmina miejsko-wiejska
+12	19	04	4	Niepołomice	miasto
+12	19	04	5	Niepołomice	obszar wiejski
+12	19	05	3	Wieliczka	gmina miejsko-wiejska
+12	19	05	4	Wieliczka	miasto
+12	19	05	5	Wieliczka	obszar wiejski
+12	61			Kraków	miasto na prawach powiatu
+12	61	01	1	Kraków	gmina miejska
+12	61	02	9	Kraków-Krowodrza	delegatura
+12	61	03	9	Kraków-Nowa Huta	delegatura
+12	61	04	9	Kraków-Podgórze	delegatura
+12	61	05	9	Kraków-Śródmieście	delegatura
+12	62			Nowy Sącz	miasto na prawach powiatu
+12	62	01	1	Nowy Sącz	gmina miejska
+12	63			Tarnów	miasto na prawach powiatu
+12	63	01	1	Tarnów	gmina miejska 
