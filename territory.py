@@ -1,4 +1,16 @@
 class Territory:
+    """Represents abstract administrative subdivision object.
+
+        Class attributes:
+            global_list (list of lists): table loaded from csv file.
+            names (list): names of each entities.
+            names_extended (list): names with types of each entities.
+        Attributes:
+            _id (str): id number of particular entity.
+            name(str): name of entity.
+            type(str): type of entity
+            wojewodztwa(list): list of wojewodztwa objects
+    """
     global_list = []
     names = []
     names_extended = []
@@ -13,6 +25,15 @@ class Territory:
 
     @classmethod
     def import_csv(cls, filename):
+        """
+        Imports data from csv file into global_list table.
+
+        Args:
+            filename (str): path to csv file
+
+        Returns:
+            None
+        """
         handler = open(filename, "r")
         data = handler.readlines()
         for row in data[1:]:
@@ -21,6 +42,15 @@ class Territory:
             cls.global_list.append(row)
 
     def create_objects(self):
+        """
+        Creates objects for all entities.
+
+        Args:
+            None
+
+        Returns:
+            None
+        """
         for row in Territory.global_list:
             number = row[0] + row[1] + row[2] + row[3]
             if len(number) == 2:
@@ -58,13 +88,40 @@ class Territory:
                                 powiat.obszary_wiejskie_w_gminach.append(gmina)
 
     def name_lenght(self):
+        """
+        Returns length of name attribute.
+
+        Args:
+            None
+
+        Returns:
+            (int): length of name attribute.
+        """
         return len(self.name)
 
     def count_subdivisions(self):
+        """
+        Counts number of subdivisions of particular entity.
+
+        Args:
+            None
+
+        Returns:
+            (list of int): entity subdivisions quantity.
+        """
         return [len(self.wojewodztwa)]
 
 
     def cities_with_longest_names(self):
+        """
+        Seeks for 3 cities with longest names
+
+        Args:
+            None
+
+        Returns:
+            (list of str): 3 longest names
+        """
         longest = []
         output = []
         for wojewodztwo in self.wojewodztwa:
@@ -78,6 +135,15 @@ class Territory:
 
 
     def counties_with_largest_communities(self):
+        """
+        Finds county's with the largest number of communities
+
+        Args:
+            None
+
+        Returns:
+            (str): county's name.
+        """
         largest_communities = 0
         largest_powiat = None
         for wojewodztwo in self.wojewodztwa:
@@ -88,10 +154,29 @@ class Territory:
         return largest_powiat.name
 
     def locations_with_several_categories(self):
-        return list([x, Territory.names.count(x)] for x in set(Territory.names) if Territory.names.count(x) > 1)
+        """
+        Finds locations, that belong to more than one category
+
+        Args:
+            None
+
+        Returns:
+            (list of lists): names of territory entities and quantities of locations of this entities.
+        """
+        return list([name, Territory.names.count(name)] for name in set(Territory.names) if Territory.names.count(name) > 1)
 
 
     def advanced_search(self, keyword):
+        """
+        Search for entities which matches string pattern given
+
+        Args:
+            keyword(str): string to find in entities names given by user
+
+        Returns:
+            (list of lists): names of territory entities (and their types) which match user keyword.
+            (False): if keyword given doesnt match any entities names
+        """
         output_list = [names_extended for names_extended in Territory.names_extended if str(keyword) in
                        str(names_extended[0])]
         output = sorted(output_list, key=lambda tup: (tup[0], tup[1]))
@@ -100,6 +185,15 @@ class Territory:
         return output
 
     def count_entities(self):
+        """
+        Counts entities of each categories.
+
+        Args:
+            None
+
+        Returns:
+            (list of int): numbers of entities.
+        """
         wojewodztwa_quantity, miasta_na_prawach_powiatu_quantity, powiaty_quantity, gminy_wiejskie_quantity, gminy_miejskie_quantity, gminy_miejsko_wiejskie_quantity, miasta_w_gminie_quantity, obszary_wiejskie_w_gminach_quantity, delegatury_quantity = 0, 0, 0, 0, 0, 0, 0, 0, 0
         wojewodztwa_quantity += self.count_subdivisions()[0]
         for wojewodztwo in self.wojewodztwa:
@@ -119,6 +213,18 @@ class Territory:
 
 
 class Wojewodztwo(Territory):
+    """Represents 'wojewodztwo' administrative subdivision object.
+
+        Parent: Territory
+
+        Attributes:
+            _id (str): id number of wojewodztwo.
+            name(str): name of wojewodztwo.
+            type(str): type of entity
+            powiaty(list): list of powiat objects which this wojewodztwo entity contains
+            miasta_na_prawach_powiatu(list): list of powiat objects which this wojewodztwo entity contains
+            delegatury(list): list of delegatura objects which this wojewodztwo entity contains
+    """
     def __init__(self, _id, name, type):
         super().__init__(_id, name, type)
         self.powiaty = []
@@ -126,10 +232,33 @@ class Wojewodztwo(Territory):
         self.delegatury = []
 
     def count_subdivisions(self):
+        """
+        Counts number of subdivisions in wojewodztwo object.
+
+        Args:
+            None
+
+        Returns:
+            (list of ints): subdivisions quantity.
+        """
         count_miasta = sum([len(miasto.gminy_miejskie) for miasto in self.miasta_na_prawach_powiatu])
         return [len(self.powiaty), len(self.miasta_na_prawach_powiatu), len(self.delegatury), count_miasta]
 
 class Powiat(Territory):
+    """Represents 'powiat' administrative subdivision object.
+
+        Parent: Territory
+
+        Attributes:
+            _id (str): id number of powiat.
+            name(str): name of powiat.
+            type(str): type of entity
+            gminy_wiejskie(list of objects): list of Gmina objects which this Powiat entity contains
+            gminy_miejskie(list of objects): list of Gmina objects which this Powiat entity contains
+            gminy_miejsko_wiejskie(list of objects): list of Gmina objects which this Powiat entity contains
+            miasta_w_gminie(list of objects): list of Gmina objects which this Powiat entity contains
+            obszary_wiejskie_w_gminach(list of objects): list of Gmina objects which this Powiat entity contains
+    """
     def __init__(self, _id, name, type):
         super().__init__(_id, name, type)
         self.gminy_wiejskie = []
@@ -139,17 +268,53 @@ class Powiat(Territory):
         self.obszary_wiejskie_w_gminach = []
 
     def count_subdivisions(self):
+        """
+        Counts number of subdivisions in Powiat object.
+
+        Args:
+            None
+
+        Returns:
+            (list of ints): subdivisions quantity.
+        """
         return [len(self.gminy_wiejskie), len(self.gminy_miejskie), len(self.gminy_miejsko_wiejskie), len(self.miasta_w_gminie),
                 len(self.obszary_wiejskie_w_gminach)]
 
     def count_communities(self):
+        """
+        Counts number of communities in Powiat object.
+
+        Args:
+            None
+
+        Returns:
+            (list of ints): subdivisions quantity.
+        """
         return len(self.gminy_miejskie) + len(self.gminy_miejsko_wiejskie) + len(self.gminy_wiejskie) + len(self.miasta_w_gminie) +len(self.obszary_wiejskie_w_gminach)
 
 
 class Gmina(Territory):
+    """Represents 'gmina' administrative subdivision object.
+
+        Parent: Territory
+
+        Attributes:
+            _id (str): id number of Gmina.
+            name(str): name of Gmina.
+            type(str): type of entity
+    """
     def __init__(self, _id, name, type):
         super().__init__(_id, name, type)
 
 class Delegatura(Territory):
+    """Represents 'delegatura' administrative subdivision object.
+
+        Parent: Territory
+
+        Attributes:
+            _id (str): id number of Delegatura.
+            name(str): name of Delegatura.
+            type(str): type of entity
+    """
     def __init__(self, name, type):
         super().__init__(name, type)

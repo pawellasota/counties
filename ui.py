@@ -11,7 +11,10 @@ def print_table(table, title_list, title, numeration=True):
     Returns:
         This function doesn't return anything it only prints to console.
     """
-    print(title + "\n")
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+    END = '\033[0m'
+    print("\n" + BOLD + UNDERLINE + title +END + "\n")
     if numeration:
         title_list.insert(0, "Id")
         for index, row in enumerate(table):
